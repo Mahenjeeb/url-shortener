@@ -1,2 +1,2 @@
 # url-shortener
-A URL Shortener using Node JS
+A URL shortener using Node.js and TypeScript.
