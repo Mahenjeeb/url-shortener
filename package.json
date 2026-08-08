@@ -20,6 +20,8 @@
   },
   "scripts": {
     "build": "tsc",
+    "db:push": "drizzle-kit push --config src/drizzle.config.ts",
+    "studio": "drizzle-kit studio --config src/drizzle.config.ts",
     "start": "node dist/server.js",
     "dev": "npx tsc --noEmit && tsx src/server.ts"
   },

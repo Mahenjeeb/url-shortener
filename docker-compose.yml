@@ -1,0 +1,10 @@
+services:
+  db:
+    image: postgres:18.4
+    restart: always
+    environment:
+      POSTGRES_DB: url
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: password
+    ports:
+      - 5432:5432
